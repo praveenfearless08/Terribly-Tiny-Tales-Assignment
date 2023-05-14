@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@700&family=Pacifico&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: capitalize;
+  word-wrap: normal;
+  color: #fff;
+  opacity: 0.9;
+  font-size: 25px;
+}
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #edf0f5;
+  background-color: #00adb5;
+
+  font-family: "Lato", sans-serif;
+}
+.submit {
+  margin-top: 50px;
+  width: 400px;
+  width: 80%;
+  min-height: 200px;
+  background-color: #daeaf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+.submit > form > button {
+  width: 120px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+.submit > form > button:hover {
+  background-color: #000;
+  color: white;
+  border: 3px solid white;
+}
+.chart {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 80%;
+  border-radius: 20px;
+  padding: 20px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #daeaf1;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+}

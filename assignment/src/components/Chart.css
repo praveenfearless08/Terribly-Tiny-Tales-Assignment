@@ -1,0 +1,94 @@
+.chart-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-area > .export-data {
+  position: absolute;
+  top: 25px;
+  right: 70px;
+}
+
+.chart-area .description {
+  font-family: "Lato";
+  opacity: 0.6;
+  margin-top: 30px;
+  text-align: center;
+  color: #000;
+}
+button {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+button:hover {
+  background-color: #000;
+  color: white;
+  border: 3px solid white;
+}
+.chart-area {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+.chart-area {
+  width: 90%;
+  height: 500px;
+  margin: auto;
+}
+
+.export-button {
+  margin-top: 20px;
+}
+@media only screen and (max-width: 868px) {
+  .chart-area {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+  }
+  .chart-area > .export-data {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+  }
+  button {
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    font-family: "Lato", sans-serif;
+  }
+  .chart-area .description {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 412px) {
+  button {
+    width: 50px;
+    height: 25px;
+    font-size: 14px;
+    border-radius: 7px;
+    margin: 8px;
+    border: 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    font-family: "Lato", sans-serif;
+  }
+  .chart-area .description {
+    font-size: 11px;
+    text-align: center;
+  }
+}
